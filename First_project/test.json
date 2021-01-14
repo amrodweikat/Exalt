@@ -1,7 +1,7 @@
-{
+[
 
-	
-    "Device1" : {
+	{
+    "Device" : {
        "IPAddress":"192.168.1.1",
        "Username":"Amr",
        "Password":"1",
@@ -10,11 +10,11 @@
        "Type":"Switch" 
     }
 
-	,
+	},
 
 		
-	
-    "Device2" : {
+	{
+    "Device" : {
        "IPAddress":"192.168.2.1",
        "Username":"Ahmad",
        "Password":"12",
@@ -23,11 +23,11 @@
        "Type":"Switch" 
     }
 
-	,
+	},
 
 	
-		
-    "Device3" : {
+	{
+    "Device" : {
        "IPAddress":"192.168.3.0",
        "Username":"Yazan",
        "Password":"123",
@@ -35,12 +35,12 @@
        "Type":"Router" 
     }
 
-	,
+	},
 
 
 	
-		
-    "Device4" : {
+	{	
+    "Device" : {
        "IPAddress":"192.168.4.0",
        "Username":"Firas",
        "Password":"1234",
@@ -48,12 +48,12 @@
        "Type":"Router" 
     }
 
-	,
+	},
 
 
 	
-		
-    "Device5" : {
+	{	
+    "Device" : {
        "IPAddress":"192.168.5.0",
        "Username":"Ez",
        "Password":"12345",
@@ -61,9 +61,9 @@
        "Type":"AP" 
     }
 
-		
+	}	
 	
 
 
     
-}
+]

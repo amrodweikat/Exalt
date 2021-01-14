@@ -1,20 +1,20 @@
 import java.util.List;
 
-public class Router extends Help{
+public class Router extends Device {
 
 
-    private List<String> Networks;
+    private List<String> networks;
 
 
-    public Router(String IPAddress,String Username,String Password){
-        super(IPAddress,Username,Password);
+    public Router(String ipAddress,String userName,String password){
+        super(ipAddress,userName,password);
     }
 
     public List<String> getNetworks() {
-        return Networks;
+        return networks;
     }
 
     public void setNetworks(List<String> networks) {
-        Networks = networks;
+        this.networks = networks;
     }
 }

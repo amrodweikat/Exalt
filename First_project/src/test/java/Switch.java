@@ -1,28 +1,28 @@
 
 
-public class Switch extends Help{
+public class Switch extends Device {
 
 
-    private String Network;
-    private String MacAddress;
+    private String network;
+    private String macAddress;
 
-    public Switch(String IPAddress,String Username,String Password){
-        super(IPAddress,Username,Password);
+    public Switch(String ipAddress,String userName,String password){
+        super(ipAddress,userName,password);
     }
 
     public String getNetwork() {
-        return Network;
+        return network;
     }
 
     public void setNetwork(String network) {
-        Network = network;
+        this.network = network;
     }
 
     public String getMacAddress() {
-        return MacAddress;
+        return macAddress;
     }
 
     public void setMacAddress(String macAddress) {
-        MacAddress = macAddress;
+        this.macAddress = macAddress;
     }
 }

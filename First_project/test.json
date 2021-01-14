@@ -1,5 +1,5 @@
 {
-	
+
 	
     "Device1" : {
        "IPAddress":"192.168.1.1",
@@ -13,7 +13,7 @@
 	,
 
 		
-
+	
     "Device2" : {
        "IPAddress":"192.168.2.1",
        "Username":"Ahmad",
@@ -26,7 +26,7 @@
 	,
 
 	
-	
+		
     "Device3" : {
        "IPAddress":"192.168.3.0",
        "Username":"Yazan",
@@ -39,7 +39,7 @@
 
 
 	
-	
+		
     "Device4" : {
        "IPAddress":"192.168.4.0",
        "Username":"Firas",
@@ -52,7 +52,7 @@
 
 
 	
-	
+		
     "Device5" : {
        "IPAddress":"192.168.5.0",
        "Username":"Ez",
@@ -62,7 +62,7 @@
     }
 
 		
-
+	
 
 
     
